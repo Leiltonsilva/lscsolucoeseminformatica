@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home - Lsc Soluções em Informática</title>
+  <link rel='icon' href="fotos/logo branca.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <header>
+   <nav>
+       <div class="logo">
+        <span>Lsc Soluções em Informática</span>
+       </div>
+        <ul><!--Munu principal-->
+               <li><a href="index.html">Home</a></li>
+               <li><a href="quemsomos.html">Empresa</a></li>
+            <!--<li><a <!href="formulario">Contato</a></li>
+               <li><a href="#">Agende sua Visita</a></li>
+       </ul>-->
+   </nav>
+ </header>
+  <div class="flex_container">
+
+  <div class="flex_item1">
+    <grid class="texto">
+      <h1>Bem Vindo!</h1>
+           <p style="line-height: 1,5;">Na Lsc Soluções em Informática, estamos dedicados a oferecer serviços de alta qualidade
+               que atendam às suas necessidades tecnológicas. Com expertise em instalação de redes, manutenção 
+               de computadores e CFTV (Circuito Fechado de Televisão), estamos preparados para fornecer soluções 
+               completas e personalizadas para sua empresa ou residêncial</p>
+               <br>
+           <p style="line-height: 1,5;">Garantimos uma infraestrutura de rede robusta e eficiente, essencial para o bom funcionamento de
+            qualquer negócio. Desde a criação de redes locais (LAN) até a implementação de redes sem fio (Wi-Fi),
+             nossa equipe de especialistas está pronta para projetar, instalar e manter sua rede com os mais altos padrão.
+       </p>
+    </grid>
+    <section class="galery">
+        <div class="fotos">
+            <img src="fotos/foto carrossel 1.jpg" all="foto1">
+            <img src="fotos/foto carrossel 2.jpg" all="foto2">
+            <img src="fotos/foto carrossel 3.jpg" all="foto3">
+            <img src="fotos/foto carrossel 4.jpg" all="foto4">
+            <img src="fotos/foto carrossel 1.jpg" all="foto1">
+        </div>
+      
+    </section>
+    </div>
+    <br><br>
+    <!--formulario-->
+    <div class="formulario">
+    <h2>Entre em Contato</h2>
+    <form action="processar_formulario.php" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"placeholder="Digite seu Email"><br><br>
+
+        <label for="tipo_servico">Tipo de Serviço:</label><br>
+        <select id="tipo_servico" name="tipo_servico" required>
+            <option value="">Selecione o tipo de serviço</option>
+            <option value="Manutenção">Manutenção</option>
+            <option value="Instalação">Instalação</option>
+            <option value="Reparação">Reparação</option>
+            <option value="Outro">Outro</option>
+        </select><br><br>
+
+        <label for="descricao">Descrição do Serviço:</label><br>
+      <textarea name="Mensagem" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea><br><br>
+
+        <input type="submit" value="Enviar" <a href="obrigado.html"></a>
+      
+    </form>
+    </div>
+      <br><br>
+   
+ <!-- <footer><p>&copy;2024 - Todos os direitos reservados por Lsc Soluções em Informática </p>
+    <div class="social-media">
+        <a href="https://facebook.com/empresa">Facebook</a>
+        <a href="https://x.com/empresa">x(twitter)</a>
+        <a href="https://instagram.com/empresa">Instagram</a>
+    </div></footer>-->
+      <footer>
+          <div class="container1">
+              <ul>
+                  <h3>&copy;2024 - Todos os direitos reservados por Lsc Soluções em Informática</h3>
+                  <p></p>
+                  Tv talita n° 00 - Pita SG - Tel.: (21) 90278-0101 <br>
+                  CNPJ: xx.xxx.xxx/0001-00 <br>
+                  Horário de Atendimento: 24 horas.</p>
+
+        <div class="redes-socias">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://x.com">x(twitter)</a>
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://br.linkedin.com/">Linkedin</a>
+                      
+         </div>
+     </div>
+      </footer>
+
+      
+      
+</body>
+
+</html>
